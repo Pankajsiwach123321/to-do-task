@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #808080 !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.task-card {
+    padding: 23px 21px 28px;
+    border-radius: 20px;
+    background: var(--White, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.input-for-text {
+    padding: 7px 8px 7px 19px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid var(--Border, rgba(0, 0, 0, 0.10));
+}
+
+input {
+    color: var(--Gray, #808080);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 0;
+    outline: 0;
+}
+
+button {
+    padding: 13px 34px;
+    color: var(--White, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 4px;
+    border: 0;
+    outline: 2px solid transparent;
+    transition: all 300ms linear;
+    background: var(--Gradient, linear-gradient(97deg, #128DFF -4.95%, #1444EF 109.04%));
+}
+
+button:hover {
+    color: #128DFF;
+    background: transparent;
+    outline: 2px solid #128DFF;
+}
+
+.taskheading {
+    color: #7F7F7F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.learning {
+    color: var(--Black, #000);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.live-task {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--Border, rgba(0, 0, 0, 0.10));
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.10);
+}
+
+#myUL>div {
+    margin-top: 4px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid var(--Border, rgba(0, 0, 0, 0.10));
+    background: var(--White, #FFF);
+    box-shadow: 0px 5px 17px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#myUL>div>p {
+    color: var(--Black, #000);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0 !important;
+}
+
+svg.check g path {
+    fill: blue;
+}
